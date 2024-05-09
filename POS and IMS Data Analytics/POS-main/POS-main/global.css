@@ -1,0 +1,321 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+/* Container CSS */
+.searchInputContainer {
+  margin-top: 10px;
+}
+.searchInput {
+  width: 100%;
+  height: 44px;
+  padding-left: 26px;
+  border: 1px solid #b4b0b0;
+  border-radius: 5px;
+  outline: none;
+}
+.col-9 {
+  margin-left: -19px;
+}
+.productResultContainer {
+  height: 100%;
+  padding: 3px;
+  border: 1px solid #e2e2e2;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.searchResultContainer {
+  padding: 10px;
+}
+.productResultContainer img {
+  width: 100%;
+  transition: transform 0.2s;
+}
+.productInfoContainer {
+  position: absolute;
+  width: 100%;
+  height: 51px;
+  bottom: 0;
+  left: 0;
+  padding: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: #b5153d80;
+}
+.productResultContainer img:hover {
+  transform: scale(1.1);
+}
+.productResultContainer:hover {
+  cursor: pointer;
+}
+.searchResultContainer .col-4 {
+  padding: 0px !important;
+}
+.posOrderContainer {
+  padding: 0px !important;
+  border-left: 4px solid #b5153d;
+}
+/* header CSS */
+.pos_header {
+  background: #ff5c85;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.pos_header .logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 75px;
+  margin: 0px !important;
+}
+.pos_header .timeAndDate {
+  color: #fff;
+  font-size: 15px;
+}
+.alignRight {
+  text-align: right !important;
+}
+.pos_header a {
+  font-size: 44px;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+/* POS content CSS */
+#pos_items_tbl th {
+  color: #6b6365;
+  font-size: 16px;
+}
+#pos_items_tbl td {
+  font-size: 20px;
+}
+.pos_items_btn {
+  color: #ff5c85;
+}
+#pos_items_tbl tbody tr:nth-child(odd) {
+  background: #ffe3ea;
+}
+.item_total {
+  font-size: 28px;
+  padding-left: 10px;
+  padding-right: 14px;
+  font-weight: bold;
+}
+
+.item_total--value {
+  float: right;
+  font-size: 34px;
+}
+.item_total--label {
+  font-size: 21px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.checkoutBtnContainer {
+  margin-top: 89px;
+  padding: 20px;
+}
+.checkoutBtn {
+  font-size: 45px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border: 2px solid #ff5c85;
+  border-radius: 5px;
+  color: #ff5c85;
+}
+.checkoutBtn:hover {
+  text-decoration: none;
+  background-color: #ff5c85;
+  color: #fff;
+  transition: 0.5s;
+}
+.checkoutBtn:active {
+  text-decoration: none;
+  background-color: #ff5c85;
+  color: #fff;
+}
+.item_total_container {
+  margin-top: 100px;
+}
+/* Dialog confirm CSS */
+.dialogProductName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6a6a6a;
+}
+.dialogProductPrice {
+  float: right;
+}
+.noData {
+  text-align: center;
+  font-size: 22px;
+  padding: 51px;
+  color: #707070;
+}
+.quantityUpdateBtn {
+  text-decoration: none;
+  font-size: 20px;
+}
+.quantityBtn_plus {
+  text-decoration: none;
+  color: green;
+}
+
+.quantityBtn_minus {
+  text-decoration: none;
+  color: red;
+}
+.quantityUpdateBtn:hover {
+  text-decoration: none;
+}
+/* Checkout Modal CSS */
+.checkoutTotalAmountContainer {
+  text-align: center;
+}
+.checkout_amt {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff4b4b;
+}
+.checkout_amt_title {
+  display: block;
+  font-size: 17px;
+  color: #7e7e7e;
+}
+.checkoutTblHeader {
+  font-size: 18px;
+  color: #b0b0b0;
+  font-weight: bold;
+  text-align: center;
+}
+.checkoutTblContent {
+  text-align: center;
+  font-size: 16px;
+  color: #652b39;
+}
+.checkoutTblContentContainer--title {
+  font-size: 26px;
+  color: #b5b5b5;
+}
+#userAmount {
+  height: 50px;
+  font-size: 21px;
+  text-align: right;
+}
+.userChangeContainer {
+  margin-top: -50px;
+  text-align: right;
+}
+.userChange {
+  font-size: 36px;
+  color: green;
+  font-weight: bold;
+}
+.checkoutCustomerDetails {
+  margin-top: -30px;
+}
+.checkoutCustomerTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: -40px;
+}
+.detailsContainer {
+  margin-top: -30px;
+}
+/* receipt CSS */
+#receiptContainer {
+  width: 794px;
+  height: 1122px;
+  margin: 0 auto;
+  padding: 50px 10px 30px 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+}
+#receiptContainer h1 {
+  text-align: left;
+}
+/* search result CSS */
+.searchResultContainerMain {
+  padding: 0px 27px;
+  background: #f7f7f7;
+  border: 2px solid #cbcbcb;
+  border-top: none;
+}
+.searchResultProductName {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.searchResultProductPrice {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff5c85;
+  padding-left: 12px;
+}
+.searchResultEntry {
+  cursor: pointer;
+  border-bottom: 2px solid #d0d0d0;
+  padding-bottom: 10px 0px;
+}
+.searchResultEntry:nth-child(odd) {
+  background: #fff1f5;
+}
+.nodata {
+  font-size: 24px;
+  display: block;
+  text-transform: uppercase;
+  padding: 20px;
+}
+/* dashboard CSS */
+.mainContainer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #d0d0d0;
+}
+.widgetContainer {
+  text-align: center;
+  padding: 31px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  background: #81f981;
+}
+.widgetHeader {
+  font-size: 18px;
+}
+.widgetValue {
+  margin: 0px !important;
+  font-size: 35px;
+}
+.widgetQuantity {
+  background: #f9f681;
+}
+.widgetTotalOrder {
+  color: #fff;
+  background: #008069;
+}
+.chartContainer {
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+}
+.chartTitle {
+  background: #f7f7f7; /*Gray*/
+  font-size: 20px;
+  text-align: center;
+}
+.widgetSecond {
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+}
+.header {
+  background: #f7f7f7; /*Gray*/
+  font-size: 20px;
+  text-align: center;
+}
