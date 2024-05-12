@@ -394,19 +394,21 @@ ul.dashboard_menu_list{
     margin-top: 20px;
    
 }
-ul.dashboard_menu_list li{
-    padding:  10px 0px;
+ul.dashboard_menu_list li.liMainMenu{
+    padding-top: 15px;
     font-size: 15px;
     text-transform: uppercase;
 }
-ul.dashboard_menu_list li a{
+ul.dashboard_menu_list li.liMainMenu a{
     text-decoration: none;
     color: #ffff;
     display: block;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 0px 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
 }
-ul.dashboard_menu_list li a i{
+ul.dashboard_menu_list li.liMainMenu a i{
     padding-right: 5px;
     font-size: 25px;
 }
@@ -566,4 +568,27 @@ p.userCount{
     text-transform: uppercase;
     color: #ff0000;
     padding-right: 3px;
+}
+
+a.subMenuLink{
+   padding-left: 25px !important;
+   padding-top: 10px !important;
+   padding-bottom: 10px !important;
+   text-transform: none;
+}
+
+a.subMenuLink i{
+    font-size: 10px !important;
+    width: 16px;
+}
+
+ul.subMenus{
+    background: #f57067;
+    display: none;
+}
+
+i.mainMenuIconArrow{
+    float: right;
+    font-size: 16px !important;
+    margin-top: 7px !important;
 }

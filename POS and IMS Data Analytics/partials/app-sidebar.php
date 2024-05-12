@@ -8,12 +8,30 @@
         <div class="dashboard_side_menus">
             <ul class="dashboard_menu_list">
                 <!-- class="menuActive"-->
-                <li>
+                <li class="liMainMenu">
                     <a href="./dashboard.php" > <i class="fa-solid fa-gauge"> </i> <span class="menuText"> DASHBOARD</span></a>
                 </li>
-                <li>
-                    <a href="./user-add.php"> <i class="fa-solid fa-user-plus"> </i> <span class="menuText"> ADD USERS</span></a>
+
+                <li class="liMainMenu">
+                    <a href="#"> <i class="fa-solid fa-user-plus"> </i> <span class="menuText"> PRODUCT MANAGEMENT</span></a>
                 </li>
+
+                <li class="liMainMenu">
+                    <a href="#"> <i class="fa-solid fa-user-plus"> </i> <span class="menuText"> SUPPLIER MANAGEMENT</span></a>
+                </li>
+                
+                <li class="liMainMenu">
+                    <a href="./user-add.php"> 
+                        <i class="fa-solid fa-user-plus"> </i> 
+                        <span class="menuText"> USER MANAGEMENT </span>
+                        <i class="fa-solid fa-angle-left mainMenuIconArrow"></i> 
+                    </a>
+                    <ul class="subMenus">
+                       <li><a class="subMenuLink" href="#"><i class="fa-regular fa-circle"></i> View Users</a></li>
+                       <li><a class="subMenuLink" href="#"><i class="fa-regular fa-circle"></i> Add User</a></li>
+                    </ul>
+                </li>
+               
 
             </ul>
         </div>
